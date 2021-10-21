@@ -16,19 +16,19 @@ async function loadData() {
 let data = await loadData()
 
 
-unpaid = (data.data.currentStatistics['unpaid'])/(10**18)
-unpaid = (unpaid).toFixed(5)
+unpaid = Number(data.data.currentStatistics['unpaid'])/(10**18)
+unpaid = (unpaid).toFixed(6)
 
 let flTxt = widget.addText(unpaid.toString())
 flTxt.textColor = new Color("#90ee90")
-flTxt.font = Font.boldSystemFont(25)
+flTxt.font = Font.boldSystemFont(20)
 flTxt.centerAlignText()
 
 
-widget.addSpacer(15)
+widget.addSpacer(7)
 
 let text03 = widget.addText('Eth')
-text03.font = Font.lightSystemFont(17)
+text03.font = Font.lightSystemFont(14)
 text03.textColor = new Color('#999999')
 text03.centerAlignText();
 
