@@ -1,0 +1,33 @@
+{
+    "author": "sunsimilarsun",
+    "scriptable": true,
+    "icon": "https://avatars3.githubusercontent.com/u/23498579?s=460&u=1e87605e4abc4e6ecf3edd8b1d730227f54db4d4&v=4",
+    "repo": "https://github.com/sunsimilarsun/collocate",
+    "apps": [
+        {
+            "version": "1.0.0",
+            "description": "无描述",
+            "scriptURL": "https://raw.githubusercontent.com/sunsimilarsun/collocate/master/scriptable/eth.js",
+            "thumb": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
+            "name": "JDWuLiu",
+            "homepage": "https://github.com/dompling/Scriptable/blob/master/JDWuLiu/README.md",
+            "title": "Eth"
+
+
+        },
+        {
+            "version": "1.0.0",
+            "description": "无描述",
+            "scriptURL": "https://raw.githubusercontent.com/sunsimilarsun/collocate/master/scriptable/倒数1.js",
+            "thumb": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
+            "name": "倒数日",
+            "homepage": "https://github.com/dompling/Scriptable/blob/master/JDWuLiu/README.md",
+            "title": "Eth"            
+
+        }
+
+
+
+        
+
+    ]
