@@ -16,7 +16,7 @@ async function loadData() {
 let data = await loadData()
 
 
-unpaid = (data.data.currentStatistics['unpaid'])/(10**18)
+unpaid = data.data.currentStatistics['unpaid']/(10**18)
 unpaid = (unpaid).toFixed(5)
 
 let flTxt = widget.addText(unpaid.toString())
